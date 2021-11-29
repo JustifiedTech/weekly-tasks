@@ -30,8 +30,8 @@ class WeatherViewController: UIViewController {
         super.viewDidLoad()
         setupTableOnLoad()
         viewModel.loadDataOnStart()
-        viewModel.updateUIData = updateCurrentWeatherUI
-        viewModel.delegate?.updateTable()
+//        viewModel.updateUIData = updateCurrentWeatherUI
+        viewModel.delegate = self
         
         refreshControl.addTarget(self, action: #selector(refresh), for: .valueChanged)
         
@@ -44,7 +44,7 @@ class WeatherViewController: UIViewController {
     @objc private func refresh(send:UIRefreshControl){
         DispatchQueue.main.async {
             self.viewModel.loadDataOnStart()
-            self.viewModel.updateUIData = self.updateCurrentWeatherUI
+            self.viewModel.delegate = self
             self.refreshControl.endRefreshing()
             
         }
@@ -86,8 +86,14 @@ extension WeatherViewController: UITableViewDataSource {
 }
 
 extension WeatherViewController:UpdateTableProtocol {
-    func updateTable() {
+    func updateForecastWeatherTableData() {
         self.weatherTable.reloadData()
     }
+    
+    func updateCurrentWeatherUIData() {
+        updateCurrentWeatherUI()
+    }
+    
+    
 }
 

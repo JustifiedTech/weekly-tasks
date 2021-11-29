@@ -12,7 +12,7 @@ class WeatherViewModel {
     
     var forecastWeatherResponse: ForecastWeather?
     var currentWeatherResponse: CurrentWeather?
-    var updateUIData: (() -> Void)?
+//    var updateUIData: (() -> Void)?
     var delegate: UpdateTableProtocol?
     
     
@@ -25,6 +25,9 @@ class WeatherViewModel {
             switch response {
             case .success(let data):
                 self?.currentWeatherResponse = data
+                DispatchQueue.main.async {
+                    self?.delegate?.updateCurrentWeatherUIData()
+                }
             case .failure(let error):
                 print ("error processing json data \(error)")
             }
@@ -35,7 +38,7 @@ class WeatherViewModel {
             case .success(let data):
                 self?.forecastWeatherResponse = data
                 DispatchQueue.main.async {
-                    self?.updateUIData?()
+                    self?.delegate?.updateForecastWeatherTableData()
                 }
             case .failure(let error):
                 print ("error processing json data \(error)")

@@ -8,5 +8,6 @@
 import Foundation
 
 protocol UpdateTableProtocol {
-    func updateTable()
+    func updateForecastWeatherTableData()
+    func updateCurrentWeatherUIData()
 }
