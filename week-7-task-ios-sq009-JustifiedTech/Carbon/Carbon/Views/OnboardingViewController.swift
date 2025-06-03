@@ -2,7 +2,7 @@
 //  Onboard.swift
 //  Carbon
 //
-//  Created by Decagon on 11/30/21.
+//  Created by Kelechi Brian on 11/30/21.
 //
 
 import UIKit
@@ -43,7 +43,7 @@ class OnboardingViewController: UIViewController{
         btn.setTitleColor(.white, for: .normal)
         btn.layer.cornerRadius = 5
         btn.backgroundColor = UIColor(named: "primary")
-        btn.addTarget(self, action: #selector(didTapButton), for: .touchUpInside)
+        btn.addTarget(OnboardingViewController.self, action: #selector(didTapButton), for: .touchUpInside)
         return btn
     }()
     

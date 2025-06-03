@@ -15,7 +15,7 @@ class FavouritePetCollectionViewController: UICollectionViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        print("");
         if let favouritePetViewController  = self.tabBarController?.viewControllers?.first as? PetsTableViewController {
             favouritePetViewController.reload = self
         }

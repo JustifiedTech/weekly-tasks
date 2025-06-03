@@ -12,16 +12,16 @@ final class DogBreedData {
     private init() {}
     
     func deleteDogFromFave(from dogBreed: DogModel) {
-        let dogBreedIndex = faveDogBreed?.firstIndex(where: { faveDog in
+let dogBreedIndex = faveDogBreed?.firstIndex(where: { faveDog in
             faveDog.id == dogBreed.id
-        })
+      }) 
         if let dogBreedIndex = dogBreedIndex {
             faveDogBreed?.remove(at: dogBreedIndex)
         }
     }
     
     func updateFavouriteDog(at row: Int) {
-        let isFavourite = dogBreed?[row].isFavourite ?? false
+        let isFavourite:Bool = dogBreed?[row].isFavourite ?? false
         guard let eachDogBreed = dogBreed?[row] else { return }
         eachDogBreed.isFavourite = !isFavourite
         

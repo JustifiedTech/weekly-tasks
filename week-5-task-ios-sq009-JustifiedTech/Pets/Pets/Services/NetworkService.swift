@@ -15,9 +15,9 @@ class NetworkService {
         let petUrl = "https://api.thedogapi.com/v1/breeds?api_key=18a58d9f-0669-4568-bf36-1f37914bdc57"
         
         guard let url = URL(string: petUrl) else {return}
-        dataTask = URLSession.shared.dataTask(with: url)  { (data, response, error) in
+        dataTask = URLSession.shared.dataTask(with: url)  { (data:Data?, response:URLResponse?, error:Error?) in
             if let error = error {
-                completion(.failure(error))
+                completion(Result.failure(error))
                 print("DataTask error: \(error.localizedDescription)")
                 return
             }
@@ -34,7 +34,7 @@ class NetworkService {
                 let decoder = JSONDecoder()
                 let jsonData = try decoder.decode(Dog.self, from: data)
                 DispatchQueue.main.async {
-                    completion(.success(jsonData))
+                    completion(Result.success(jsonData))
                 }
             }
             catch let error {

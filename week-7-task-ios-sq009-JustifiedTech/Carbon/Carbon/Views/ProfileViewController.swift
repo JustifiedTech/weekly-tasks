@@ -2,7 +2,7 @@
 //  SignupViewController.swift
 //  Carbon
 //
-//  Created by Decagon on 11/27/21.
+//  Created by Kelechi Brian on 11/27/21.
 //
 
 import UIKit
@@ -56,7 +56,6 @@ class ProfileViewController: UIViewController{
     
     
     private func setupViews() {
-        
         viewModel.firstNameField.rightView = view.lockView
         viewModel.lastNameField.rightView = view.lockView
         viewModel.phoneNumberField.rightView = view.flagView

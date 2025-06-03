@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049BF7F827DEC07E005F1C89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BF7F727DEC07E005F1C89 /* AppDelegate.swift */; };
+		049BF7FA27DEC07E005F1C89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BF7F927DEC07E005F1C89 /* SceneDelegate.swift */; };
+		049BF7FC27DEC07E005F1C89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BF7FB27DEC07E005F1C89 /* ViewController.swift */; };
+		049BF7FF27DEC07E005F1C89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049BF7FD27DEC07E005F1C89 /* Main.storyboard */; };
+		049BF80127DEC082005F1C89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049BF80027DEC082005F1C89 /* Assets.xcassets */; };
+		049BF80427DEC082005F1C89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049BF80227DEC082005F1C89 /* LaunchScreen.storyboard */; };
+		049BF80F27DEC082005F1C89 /* MoanFootballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BF80E27DEC082005F1C89 /* MoanFootballTests.swift */; };
+		049BF81927DEC082005F1C89 /* MoanFootballUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BF81827DEC082005F1C89 /* MoanFootballUITests.swift */; };
+		049BF81B27DEC082005F1C89 /* MoanFootballUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BF81A27DEC082005F1C89 /* MoanFootballUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		049BF80B27DEC082005F1C89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 049BF7EC27DEC07D005F1C89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 049BF7F327DEC07D005F1C89;
+			remoteInfo = MoanFootball;
+		};
+		049BF81527DEC082005F1C89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 049BF7EC27DEC07D005F1C89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 049BF7F327DEC07D005F1C89;
+			remoteInfo = MoanFootball;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		049BF7F427DEC07D005F1C89 /* MoanFootball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoanFootball.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		049BF7F727DEC07E005F1C89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		049BF7F927DEC07E005F1C89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		049BF7FB27DEC07E005F1C89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		049BF7FE27DEC07E005F1C89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		049BF80027DEC082005F1C89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		049BF80327DEC082005F1C89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		049BF80527DEC082005F1C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049BF80A27DEC082005F1C89 /* MoanFootballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoanFootballTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		049BF80E27DEC082005F1C89 /* MoanFootballTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoanFootballTests.swift; sourceTree = "<group>"; };
+		049BF81427DEC082005F1C89 /* MoanFootballUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoanFootballUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		049BF81827DEC082005F1C89 /* MoanFootballUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoanFootballUITests.swift; sourceTree = "<group>"; };
+		049BF81A27DEC082005F1C89 /* MoanFootballUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoanFootballUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		049BF7F127DEC07D005F1C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049BF80727DEC082005F1C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049BF81127DEC082005F1C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		049BF7EB27DEC07D005F1C89 = {
+			isa = PBXGroup;
+			children = (
+				049BF7F627DEC07E005F1C89 /* MoanFootball */,
+				049BF80D27DEC082005F1C89 /* MoanFootballTests */,
+				049BF81727DEC082005F1C89 /* MoanFootballUITests */,
+				049BF7F527DEC07D005F1C89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		049BF7F527DEC07D005F1C89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				049BF7F427DEC07D005F1C89 /* MoanFootball.app */,
+				049BF80A27DEC082005F1C89 /* MoanFootballTests.xctest */,
+				049BF81427DEC082005F1C89 /* MoanFootballUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		049BF7F627DEC07E005F1C89 /* MoanFootball */ = {
+			isa = PBXGroup;
+			children = (
+				049BF7F727DEC07E005F1C89 /* AppDelegate.swift */,
+				049BF7F927DEC07E005F1C89 /* SceneDelegate.swift */,
+				049BF7FB27DEC07E005F1C89 /* ViewController.swift */,
+				049BF7FD27DEC07E005F1C89 /* Main.storyboard */,
+				049BF80027DEC082005F1C89 /* Assets.xcassets */,
+				049BF80227DEC082005F1C89 /* LaunchScreen.storyboard */,
+				049BF80527DEC082005F1C89 /* Info.plist */,
+			);
+			path = MoanFootball;
+			sourceTree = "<group>";
+		};
+		049BF80D27DEC082005F1C89 /* MoanFootballTests */ = {
+			isa = PBXGroup;
+			children = (
+				049BF80E27DEC082005F1C89 /* MoanFootballTests.swift */,
+			);
+			path = MoanFootballTests;
+			sourceTree = "<group>";
+		};
+		049BF81727DEC082005F1C89 /* MoanFootballUITests */ = {
+			isa = PBXGroup;
+			children = (
+				049BF81827DEC082005F1C89 /* MoanFootballUITests.swift */,
+				049BF81A27DEC082005F1C89 /* MoanFootballUITestsLaunchTests.swift */,
+			);
+			path = MoanFootballUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		049BF7F327DEC07D005F1C89 /* MoanFootball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049BF81E27DEC082005F1C89 /* Build configuration list for PBXNativeTarget "MoanFootball" */;
+			buildPhases = (
+				049BF7F027DEC07D005F1C89 /* Sources */,
+				049BF7F127DEC07D005F1C89 /* Frameworks */,
+				049BF7F227DEC07D005F1C89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoanFootball;
+			productName = MoanFootball;
+			productReference = 049BF7F427DEC07D005F1C89 /* MoanFootball.app */;
+			productType = "com.apple.product-type.application";
+		};
+		049BF80927DEC082005F1C89 /* MoanFootballTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049BF82127DEC082005F1C89 /* Build configuration list for PBXNativeTarget "MoanFootballTests" */;
+			buildPhases = (
+				049BF80627DEC082005F1C89 /* Sources */,
+				049BF80727DEC082005F1C89 /* Frameworks */,
+				049BF80827DEC082005F1C89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				049BF80C27DEC082005F1C89 /* PBXTargetDependency */,
+			);
+			name = MoanFootballTests;
+			productName = MoanFootballTests;
+			productReference = 049BF80A27DEC082005F1C89 /* MoanFootballTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		049BF81327DEC082005F1C89 /* MoanFootballUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049BF82427DEC082005F1C89 /* Build configuration list for PBXNativeTarget "MoanFootballUITests" */;
+			buildPhases = (
+				049BF81027DEC082005F1C89 /* Sources */,
+				049BF81127DEC082005F1C89 /* Frameworks */,
+				049BF81227DEC082005F1C89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				049BF81627DEC082005F1C89 /* PBXTargetDependency */,
+			);
+			name = MoanFootballUITests;
+			productName = MoanFootballUITests;
+			productReference = 049BF81427DEC082005F1C89 /* MoanFootballUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		049BF7EC27DEC07D005F1C89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					049BF7F327DEC07D005F1C89 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					049BF80927DEC082005F1C89 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 049BF7F327DEC07D005F1C89;
+					};
+					049BF81327DEC082005F1C89 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 049BF7F327DEC07D005F1C89;
+					};
+				};
+			};
+			buildConfigurationList = 049BF7EF27DEC07D005F1C89 /* Build configuration list for PBXProject "MoanFootball" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 049BF7EB27DEC07D005F1C89;
+			productRefGroup = 049BF7F527DEC07D005F1C89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				049BF7F327DEC07D005F1C89 /* MoanFootball */,
+				049BF80927DEC082005F1C89 /* MoanFootballTests */,
+				049BF81327DEC082005F1C89 /* MoanFootballUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		049BF7F227DEC07D005F1C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049BF80427DEC082005F1C89 /* LaunchScreen.storyboard in Resources */,
+				049BF80127DEC082005F1C89 /* Assets.xcassets in Resources */,
+				049BF7FF27DEC07E005F1C89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049BF80827DEC082005F1C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049BF81227DEC082005F1C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		049BF7F027DEC07D005F1C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049BF7FC27DEC07E005F1C89 /* ViewController.swift in Sources */,
+				049BF7F827DEC07E005F1C89 /* AppDelegate.swift in Sources */,
+				049BF7FA27DEC07E005F1C89 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049BF80627DEC082005F1C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049BF80F27DEC082005F1C89 /* MoanFootballTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049BF81027DEC082005F1C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049BF81B27DEC082005F1C89 /* MoanFootballUITestsLaunchTests.swift in Sources */,
+				049BF81927DEC082005F1C89 /* MoanFootballUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		049BF80C27DEC082005F1C89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 049BF7F327DEC07D005F1C89 /* MoanFootball */;
+			targetProxy = 049BF80B27DEC082005F1C89 /* PBXContainerItemProxy */;
+		};
+		049BF81627DEC082005F1C89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 049BF7F327DEC07D005F1C89 /* MoanFootball */;
+			targetProxy = 049BF81527DEC082005F1C89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		049BF7FD27DEC07E005F1C89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049BF7FE27DEC07E005F1C89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		049BF80227DEC082005F1C89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049BF80327DEC082005F1C89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		049BF81C27DEC082005F1C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		049BF81D27DEC082005F1C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		049BF81F27DEC082005F1C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2QWNM3FJF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoanFootball/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.decagon.justifiedtech.MoanFootball;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		049BF82027DEC082005F1C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2QWNM3FJF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoanFootball/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.decagon.justifiedtech.MoanFootball;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		049BF82227DEC082005F1C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2QWNM3FJF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.decagon.justifiedtech.MoanFootballTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoanFootball.app/MoanFootball";
+			};
+			name = Debug;
+		};
+		049BF82327DEC082005F1C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2QWNM3FJF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.decagon.justifiedtech.MoanFootballTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoanFootball.app/MoanFootball";
+			};
+			name = Release;
+		};
+		049BF82527DEC082005F1C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2QWNM3FJF;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.decagon.justifiedtech.MoanFootballUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoanFootball;
+			};
+			name = Debug;
+		};
+		049BF82627DEC082005F1C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2QWNM3FJF;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.decagon.justifiedtech.MoanFootballUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoanFootball;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		049BF7EF27DEC07D005F1C89 /* Build configuration list for PBXProject "MoanFootball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049BF81C27DEC082005F1C89 /* Debug */,
+				049BF81D27DEC082005F1C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049BF81E27DEC082005F1C89 /* Build configuration list for PBXNativeTarget "MoanFootball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049BF81F27DEC082005F1C89 /* Debug */,
+				049BF82027DEC082005F1C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049BF82127DEC082005F1C89 /* Build configuration list for PBXNativeTarget "MoanFootballTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049BF82227DEC082005F1C89 /* Debug */,
+				049BF82327DEC082005F1C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049BF82427DEC082005F1C89 /* Build configuration list for PBXNativeTarget "MoanFootballUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049BF82527DEC082005F1C89 /* Debug */,
+				049BF82627DEC082005F1C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 049BF7EC27DEC07D005F1C89 /* Project object */;
+}

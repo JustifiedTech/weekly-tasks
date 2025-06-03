@@ -11,9 +11,11 @@ final class PetsTableViewController: UITableViewController {
     
     var reload:ReloadView?
     private var networkService = NetworkService()
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         
         if let favouritePetViewController  = self.tabBarController?.viewControllers?.last as? FavouritePetCollectionViewController {
             favouritePetViewController.reload = self
@@ -26,7 +28,7 @@ final class PetsTableViewController: UITableViewController {
     private func loadDataOnStart(){
         self.getDogPetData { [weak self] in
             DispatchQueue.main.async {
-                self?.tableView.reloadData()
+                self?.tableView.reloadData()  
             }
         }
     }
@@ -42,7 +44,7 @@ final class PetsTableViewController: UITableViewController {
     }
     
     private func getDogPetData(completion: @escaping () -> Void ) {
-        networkService.getPetData(completion: { [weak self](response) in
+        networkService.getPetData(completion: { [weak self](response:Result<Dog, Error>) in
             switch response {
             case .success(let data):
                 DogBreedData.dogBreedData.populateData(dog: data)
@@ -97,5 +99,6 @@ extension PetsTableViewController:ReloadView{
     func reloadView() {
         tableView.reloadData()
     }
+    
     
 }

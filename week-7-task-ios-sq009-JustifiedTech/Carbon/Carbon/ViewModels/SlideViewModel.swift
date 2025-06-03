@@ -2,7 +2,7 @@
 //  SlideViewModel.swift
 //  Carbon
 //
-//  Created by Decagon on 12/1/21.
+//  Created by Kelechi Brian on 12/1/21.
 //
 
 import Foundation

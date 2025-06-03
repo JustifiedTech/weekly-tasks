@@ -28,3 +28,25 @@ class DogModel{
     }
     
 }
+
+struct DogMode{
+    
+    
+    let id:Int
+    let name:String
+    let image:String
+    var isFavourite:Bool
+    
+    init(
+        dogId:Int,
+        dogName:String,
+        dogImage:String,
+        isDogFavourite:Bool
+    ) {
+        id = dogId
+        name = dogName
+        image = dogImage
+        isFavourite = isDogFavourite
+    }
+    
+}

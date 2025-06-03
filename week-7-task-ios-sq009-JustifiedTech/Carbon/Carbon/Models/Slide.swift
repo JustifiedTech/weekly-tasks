@@ -2,7 +2,7 @@
 //  Slide.swift
 //  Carbon
 //
-//  Created by Decagon on 11/29/21.
+//  Created by Kelechi Brian on 11/29/21.
 //
 
 import Foundation

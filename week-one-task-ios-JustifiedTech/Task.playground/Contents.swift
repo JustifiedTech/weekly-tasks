@@ -85,6 +85,7 @@ class CurrentAccount:Account {
         
     }
 }
+
 class Customer{
     private var id:Int
     private var name:String
@@ -245,7 +246,45 @@ print(customer.pubAccounts!)
 
 
 
-
+class PlayAround{
+   private var points:Int
+   private var name:String
     
+    init(name:String, points:Int) {
+        
+        self.name = name
+        self.points = points
+    }
+    
+    var userName: String {
+        get {  return name.capitalized }
+        
+        set { name = newValue}
+    }
+    
+    var userPoint: Int {
+        return points * 4 
+        
+//        set { points = newValue/5 }
+    }
+
+}
+
+let play = PlayAround(name: "Player", points: 20)
+
+//print(play.name)
+print(play.userName)
+print(play.userName = "Another")
+//print(play.name)
+print(play.userName)
+//print(play.points)
+print(play.userPoint)
+//print(play.userPoint = 200)
+//print(play.points)
+print(play.userPoint)
+
+
+
+
 
 
